@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="17G14042" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RaD-5n-8bY">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--City-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="cityNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsI-Cd-GdZ">
+                                <rect key="frame" x="85" y="117" width="205" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74279857823784057" green="0.7164042254379126" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Ahmedabad">
+                                    <color key="titleColor" red="0.96805905889723243" green="1" blue="0.94829032854229622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0Qn-ej-yGC" kind="push" id="tb5-IC-7lh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNJ-KG-3TC">
+                                <rect key="frame" x="85" y="323" width="205" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74279857819999995" green="0.71640422540000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Kutch">
+                                    <color key="titleColor" red="0.96805905889999999" green="1" blue="0.94829032849999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NJa-NI-ieF" kind="push" id="iWn-bA-uhC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rur-yB-5jj">
+                                <rect key="frame" x="85" y="429" width="205" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74279857819999995" green="0.71640422540000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Vadodara">
+                                    <color key="titleColor" red="0.96805905889999999" green="1" blue="0.94829032849999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wST-AJ-wbl" kind="push" id="tKI-b9-ALb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEe-Ez-gnj">
+                                <rect key="frame" x="85" y="219" width="205" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74279857819999995" green="0.71640422540000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Surat">
+                                    <color key="titleColor" red="0.96805905889999999" green="1" blue="0.94829032849999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Y3u-IM-ZiV" kind="push" id="1Yn-3T-Iqg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87055703152316799" green="0.92009181086253966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.91976810376810181" green="1" blue="0.92200390235082608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="City" id="KH8-Hc-cAx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840.79999999999995" y="123.68815592203899"/>
+        </scene>
+        <!--1. Sabarmati Ashram-->
+        <scene sceneID="i9R-fJ-awN">
+            <objects>
+                <viewController id="YUk-67-Wjt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LZV-CR-UYx"/>
+                        <viewControllerLayoutGuide type="bottom" id="sX0-d5-3a3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8ns-PA-vje">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images (3).jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="kz1-Gn-sLW">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Kkq-4F-Cwf">
+                                <rect key="frame" x="168" y="539" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QAs-eH-ERI">
+                                <rect key="frame" x="7" y="286" width="360" height="331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87058823529411766" green="1" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Sabarmati Ashram is one of the most important historical sites in India. It was the residence of Mahatma Gandhi during the freedom movement.
+
+The ashram offers a peaceful environment where visitors can learn about Gandhi’s life, philosophy, and contributions. It is a must-visit place for anyone interested in history and culture.</string>
+                                <color key="textColor" red="0.00086230863214763046" green="0.6403870558375635" blue="0.14378393577176707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89855501285702299" green="1" blue="0.88965344314716188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="1. Sabarmati Ashram" id="DTK-Yy-wGs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rAs-Vu-bEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223.19999999999999" y="1706.8965517241381"/>
+        </scene>
+        <!--2. Kankaria Lake-->
+        <scene sceneID="sSe-lQ-CdI">
+            <objects>
+                <viewController id="0rM-xu-USy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lSK-in-kt8"/>
+                        <viewControllerLayoutGuide type="bottom" id="WYj-7H-Hlp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9IZ-jZ-poS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kakriya.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="82D-vs-bLW">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eBe-V2-Y2N">
+                                <rect key="frame" x="7" y="286" width="360" height="331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87058823529999996" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Kankaria Lake is one of the most popular recreational spots in Ahmedabad. It is perfect for families, friends, and tourists looking for fun and relaxation.
+
+The lake area includes a zoo, toy train, food stalls, and various entertainment activities. Evening visits are especially enjoyable due to lighting and lively surroundings.</string>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87058823529411766" green="1" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2. Kankaria Lake" id="lRC-ID-TxE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gfg-On-e4P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223" y="2400"/>
+        </scene>
+        <!--3. Adalaj Stepwell-->
+        <scene sceneID="vor-2U-3jB">
+            <objects>
+                <viewController id="oJW-iF-yt2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TQg-NN-SUy"/>
+                        <viewControllerLayoutGuide type="bottom" id="WrX-87-9iQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uwp-tw-y15">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adalaj.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="STf-sV-fz3">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yUv-NX-gbc">
+                                <rect key="frame" x="7" y="286" width="360" height="331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254901960789" green="1" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Adalaj Stepwell is a beautiful example of ancient Indian architecture. Built in the 15th century, this stepwell is known for its intricate carvings and unique design.
+
+It was used as a water source and a resting place for travelers. Today, it is a popular tourist attraction for photography and heritage lovers.</string>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254901960789" green="1" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="3. Adalaj Stepwell" id="Aah-gZ-K5m"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p3j-un-r13" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223" y="3096"/>
+        </scene>
+        <!--4. Sabarmati Riverfront-->
+        <scene sceneID="dY7-1n-uOq">
+            <objects>
+                <viewController id="Fsy-lG-Zyc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mLW-SZ-V4d"/>
+                        <viewControllerLayoutGuide type="bottom" id="28d-dq-Zwl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fbe-mF-dFo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="riverfront.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="mlA-2Y-YRA">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2xb-uk-0Pe">
+                                <rect key="frame" x="7" y="286" width="360" height="331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7803921568627451" green="1" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">The Sabarmati Riverfront is a modern development that has transformed the city’s landscape. It is a great place for walking, cycling, and enjoying scenic views.
+
+The riverfront is also used for events, festivals, and public activities, making it a lively spot for locals and tourists.</string>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7803921568627451" green="1" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="4. Sabarmati Riverfront" id="pgS-lC-DvZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ze-Iy-bf4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223" y="3769"/>
+        </scene>
+        <!--Ahmedabad-->
+        <scene sceneID="L1t-lD-lnn">
+            <objects>
+                <viewController id="0Qn-ej-yGC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cUy-yd-Phf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nfv-bs-z1c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V6K-aT-6mz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNi-Cu-0O0">
+                                <rect key="frame" x="60" y="130" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792490861854" blue="0.86060560227604277" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="1. Sabarmati Ashram">
+                                    <color key="titleColor" red="0.92946219825530818" green="0.98039215686274506" blue="0.9347629498979001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YUk-67-Wjt" kind="push" id="tIx-3w-Yqq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8UO-C1-nl6">
+                                <rect key="frame" x="60" y="223" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="2. Kankaria Lake">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0rM-xu-USy" kind="push" id="fno-ck-BdG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkn-Xe-q2c">
+                                <rect key="frame" x="62" y="313" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="3. Adalaj Stepwell">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oJW-iF-yt2" kind="push" id="8vn-GH-pDc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avt-LM-piL">
+                                <rect key="frame" x="62" y="411" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="4. Sabarmati Riverfront">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Fsy-lG-Zyc" kind="push" id="Nza-RU-1cl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.89841182779249507" blue="0.94944529889311235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ahmedabad" id="164-dQ-FvJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3yc-Ft-b8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223.19999999999999" y="973.76311844077964"/>
+        </scene>
+        <!--Surat-->
+        <scene sceneID="fEb-DA-V7k">
+            <objects>
+                <viewController id="Y3u-IM-ZiV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="29B-uc-0PU"/>
+                        <viewControllerLayoutGuide type="bottom" id="wmC-Bh-hO0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wZt-Oh-5ld">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Way-JH-spR">
+                                <rect key="frame" x="62" y="138" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="1. Dutch Garden">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Gs2-ag-kjS" kind="push" id="azm-rl-geC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CE6-ux-eJn">
+                                <rect key="frame" x="62" y="226" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="2. Dumas Beach">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="haH-RJ-4NR" kind="push" id="y8y-eh-Cu7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3Q-0i-zVY">
+                                <rect key="frame" x="62" y="321" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="3. Hajira Village">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hs1-3U-anQ" kind="push" id="gYA-ln-4nK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Dj-vT-s7m">
+                                <rect key="frame" x="62" y="417" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="4. Sardar Patel Museum">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="K2c-Cd-x4G" kind="push" id="Dtc-1S-9wj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.89411764705882357" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Surat" id="jl7-im-35e"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DgC-g2-Mow" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="478" y="974"/>
+        </scene>
+        <!--1. Dutch Garden-->
+        <scene sceneID="amU-wS-Xus">
+            <objects>
+                <viewController id="Gs2-ag-kjS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cEu-un-Cpg"/>
+                        <viewControllerLayoutGuide type="bottom" id="QiG-Ga-xze"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="X1S-Fh-a4f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="surat1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="r2o-x8-5SW">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R6m-cX-ish">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254901960789" green="1" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Located in Nanpura, the Dutch Garden is a European style cemetery of Dutch and English officers. It is popular for the beautiful tombs of the explorers who visited and settled in India in those times. They had settled in the region for trade purposes and the same area has been marked as the Dutch Garden as we see it today.
+
+Timings: 6:00 AM – 12:00 PM, 3:00 PM – 10:00 PM
+Entry Fee: Free</string>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7803921568627451" green="1" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="1. Dutch Garden" id="3Fb-F7-IuS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ocC-tg-Gyv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="477.60000000000002" y="1706.8965517241381"/>
+        </scene>
+        <!--1. Kutch’s white desert-->
+        <scene sceneID="I14-6Y-Pgg">
+            <objects>
+                <viewController id="mlK-N2-r4u" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kVd-U1-YjO"/>
+                        <viewControllerLayoutGuide type="bottom" id="UmM-Ki-W2b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Oe6-Y3-kFX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kutch1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="51g-d1-AvN">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yM8-nk-K3n">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">The White Rann is the iconic attraction of Kutch—a vast salt desert that looks almost endless, especially around sunset and under moonlight. It's the place I'd consider #1 for a first Kutch trip. The surrounding Dhordo area also comes alive during the Rann Utsav season.
+
+Best for: 📸 Photography, sunset, couples, family, Rann Utsav
+My rating: ⭐ 10/10</mutableString>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78039215689999997" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="1. Kutch’s white desert" id="hAU-qN-ftk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iu4-o8-42m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1190" y="1707"/>
+        </scene>
+        <!--4. Mandvi Beach-->
+        <scene sceneID="GYZ-Qa-8yW">
+            <objects>
+                <viewController id="Swg-VJ-XcF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2x0-Pq-dy9"/>
+                        <viewControllerLayoutGuide type="bottom" id="i0N-dQ-sy1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s1T-ll-tfS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kutch4.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="J64-5M-zB0">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6qN-BP-SB6">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">For a completely different side of Kutch, head to Mandvi. Its long sandy coastline is relaxing after spending time in the desert. You can combine it with nearby heritage attractions such as Vijay Vilas Palace and enjoy the coastal atmosphere.
+
+Best for: 🌴 Relaxation, beach, family, couples
+My rating: ⭐ 8.5/10</mutableString>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78039215689999997" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="4. Mandvi Beach" id="i5a-Np-Q9G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G2D-v7-Aa2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1190" y="3769"/>
+        </scene>
+        <!--3. Dholavira-->
+        <scene sceneID="G8r-kH-Rd5">
+            <objects>
+                <viewController id="UIm-Sy-Jmm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JuC-zO-Pyy"/>
+                        <viewControllerLayoutGuide type="bottom" id="xlW-Kp-bsd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jny-Cf-Hgb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kutch3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="oxa-po-0OD">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Twq-8q-5ct">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">If you enjoy history and ancient civilizations, don't miss Dholavira. It's a remarkably preserved Harappan/Indus Valley Civilization city dating back around 5,000 years and is a UNESCO World Heritage Site. It's very different from the usual desert attractions and gives you a fascinating look at ancient urban life.
+
+Best for: 🏺 History, archaeology, unique experiences
+My rating: ⭐ 9/10</mutableString>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78039215689999997" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="3. Dholavira" id="SJH-Ua-6Qi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kAL-lJ-mMD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1190" y="3096"/>
+        </scene>
+        <!--2. Kalo Dungar-->
+        <scene sceneID="N69-ag-ib5">
+            <objects>
+                <viewController id="YJ2-up-7QW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nIH-Jg-XN1"/>
+                        <viewControllerLayoutGuide type="bottom" id="abp-Mz-aDo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gmb-m5-JJo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kutch2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="pqB-lu-EGx">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DI8-y8-So0">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">•Mountain peak
+
+Also called Black Hill, Kalo Dungar is the highest point in Kutch at 462 m. From the top, you get an incredible panoramic view of the Great Rann. There's also a historic Dattatreya temple, making the place interesting culturally as well as visually.
+
+Best for: 🌅 Sunset, panoramic views, photography
+My rating: ⭐ 9.5/10</mutableString>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78039215689999997" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2. Kalo Dungar" id="Krp-P4-qT3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FZh-4C-rvV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1190" y="2400"/>
+        </scene>
+        <!--Kutch-->
+        <scene sceneID="QZJ-Ee-oni">
+            <objects>
+                <viewController id="NJa-NI-ieF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="foA-Ow-ewL"/>
+                        <viewControllerLayoutGuide type="bottom" id="JqY-6e-ygK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lYp-H0-aCW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PiU-at-cw5">
+                                <rect key="frame" x="62" y="138" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="1. Kutch’s white desert">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mlK-N2-r4u" kind="push" id="zZu-YT-G5f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnq-BE-fLo">
+                                <rect key="frame" x="62" y="418" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="4. Mandvi Beach">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Swg-VJ-XcF" kind="push" id="H4p-4V-U1q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKw-L7-Lss">
+                                <rect key="frame" x="62" y="323" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="3. Dholavira">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UIm-Sy-Jmm" kind="push" id="p7E-xE-BNn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCe-69-igl">
+                                <rect key="frame" x="62" y="231" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="2. Kalo Dungar">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YJ2-up-7QW" kind="push" id="p12-N1-LiR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.8901960784313725" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kutch" id="EZN-M4-hjf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xn2-hn-XMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1190" y="974"/>
+        </scene>
+        <!--Vadodara-->
+        <scene sceneID="Wfw-lU-zqP">
+            <objects>
+                <viewController id="wST-AJ-wbl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mqI-bP-Qkd"/>
+                        <viewControllerLayoutGuide type="bottom" id="wbS-ng-Gyk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t7o-r5-hcp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fe-LB-MLZ">
+                                <rect key="frame" x="62" y="146" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="1. Laxmi Vilas Palace">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zHc-Tc-Hbr" kind="push" id="DSg-7J-13M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VvY-D2-CGF">
+                                <rect key="frame" x="62" y="330" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="3. Kirti Mandir">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="X36-H5-3SZ" kind="push" id="5DM-OT-uoW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5P-1h-Z73">
+                                <rect key="frame" x="62" y="420" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="4. Maharaja Fatehsinh Museum">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kgv-0C-K7f" kind="push" id="lUl-Th-DML"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WrO-p5-btC">
+                                <rect key="frame" x="62" y="240" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.74010792489999999" blue="0.86060560230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="2. Sayaji Baug Zoo">
+                                    <color key="titleColor" red="0.92946219829999999" green="0.98039215690000003" blue="0.93476294989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nAw-70-svs" kind="push" id="ydb-VA-UBa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.88627450980392153" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vadodara" id="rTI-QD-wAL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxy-dM-3hB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1919" y="974"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wb1-Zr-YuI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RaD-5n-8bY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XDh-cD-Kcd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Mjj-1q-lfM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v1V-GK-IWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="90" y="124"/>
+        </scene>
+        <!--3. Hajira Village-->
+        <scene sceneID="EQH-q7-YLb">
+            <objects>
+                <viewController id="hs1-3U-anQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uWr-tz-ZQk"/>
+                        <viewControllerLayoutGuide type="bottom" id="hzK-xA-N6X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cJt-d3-sF5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="surat3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="OcO-14-vXf">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6a9-tF-3Zl">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Hajira Village is a charming town located by the Arabian Sea. It is around 20 kilometers away from Surat in the Chorasi Tehsil of the district. Sporting shallow waters, the town hosts a major shipping port of India, owing to its connectivity with the Arabian Sea via the Gulf of Khambhat and the Persian Gulf.
+
+Timings: 12:00 AM – 12:00 AM
+Entry Fee: Free</string>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254901960789" green="1" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="3. Hajira Village" id="YC4-Kd-QJf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gLN-4j-ekL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="478" y="3096"/>
+        </scene>
+        <!--2. Dumas Beach-->
+        <scene sceneID="mNv-zR-eRN">
+            <objects>
+                <viewController id="haH-RJ-4NR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HFa-Bw-lcS"/>
+                        <viewControllerLayoutGuide type="bottom" id="38U-87-LWx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eOu-Nr-HHw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="surat2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="YeR-qD-2DO">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dT5-8T-QmV">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Located along the Arabian Sea, Dumas beach is situated around 21 kilometers southwest of Surat. The beach is widely popular among tourists and locals but only during the day. The beach located at the mouth of the River Mandola and Tapi offers scenic beauty but unlike other beaches of India, it has black sand and an eerie vibe. The black color of the sand is attributed to the high concentration of iron.
+
+Timings: 12:00 AM – 12:00 AM
+Entry Fee: Free</string>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2. Dumas Beach" id="WWE-Km-oqf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XTN-7x-odF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="478" y="2400"/>
+        </scene>
+        <!--4. Sardar Patel Museum-->
+        <scene sceneID="aF1-GL-vr7">
+            <objects>
+                <viewController id="K2c-Cd-x4G" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ewO-Us-tU0"/>
+                        <viewControllerLayoutGuide type="bottom" id="ejf-r2-1tL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dna-rv-3px">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="surat4.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="G0V-SW-UCt">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YvL-i5-TKv">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">The Sardar Patel Museum was established in 1890 and was then known as the Winchester Museum. It is located in Shahibaug in an old building constructed in 1622 for Shah Jahan. Later the building was occupied by the British and was even used by the great Bengali poet Rabindranath Tagore.
+
+Timings: 9:00 AM – 11:30 AM, 2:30 PM – 5:00 PM (Closed On Mondays)
+Entry Fee: ₹20 (Adult), ₹10 (Child)</string>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="4. Sardar Patel Museum" id="Rx1-IU-kqd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rfb-El-MYT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="478" y="3769"/>
+        </scene>
+        <!--1. Laxmi Vilas Palace-->
+        <scene sceneID="T7J-1S-yP8">
+            <objects>
+                <viewController id="zHc-Tc-Hbr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eYv-Zt-huG"/>
+                        <viewControllerLayoutGuide type="bottom" id="ami-3t-bVg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gKT-VQ-CQi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vadodara1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="TFQ-Nd-hRi">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NOs-tO-PVA">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">This is the #1 must-visit in Vadodara. Built for Maharaja Sayajirao Gaekwad III, the palace is famous for its grand Indo-Saracenic architecture, lavish interiors, artwork, and huge grounds. It is still associated with the Gaekwad royal family, with parts open to visitors.
+
+Best for: 🏛️ History • Architecture • Photography
+My rating: ⭐ 10/10</mutableString>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78039215689999997" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="1. Laxmi Vilas Palace" id="6JP-73-YYp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JxX-Dj-Lto" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918" y="1707"/>
+        </scene>
+        <!--4. Maharaja Fatehsinh Museum-->
+        <scene sceneID="mlj-9C-zwQ">
+            <objects>
+                <viewController id="kgv-0C-K7f" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xG2-tq-57G"/>
+                        <viewControllerLayoutGuide type="bottom" id="ur3-PY-W4x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FPj-dT-bvE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vadodara4.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="lTm-F2-FlT">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aqN-6R-og4">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">Located within the Laxmi Vilas Palace complex, this museum has a notable collection of art and royal-era objects. It's a good addition to your palace visit if you enjoy paintings and cultural history.
+
+Best for: 🎨 Art • Culture • History
+My rating: ⭐ 8.5/10</mutableString>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78039215689999997" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="4. Maharaja Fatehsinh Museum" id="i7O-ow-Wop"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NRt-2m-byD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918" y="3769"/>
+        </scene>
+        <!--3. Kirti Mandir-->
+        <scene sceneID="eNl-RG-uvU">
+            <objects>
+                <viewController id="X36-H5-3SZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="26P-gt-I3c"/>
+                        <viewControllerLayoutGuide type="bottom" id="MKH-sx-Rhb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8zr-Fm-TJK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vadodara3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="l5K-rl-g8L">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="b22-fd-7cT">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">Kirti Mandir is a beautiful historical monument associated with the Gaekwad dynasty. Its distinctive architecture, marble work, and murals make it a worthwhile stop if you want to experience Vadodara's royal history beyond the main palace.
+
+Best for: 🏺 Heritage • Architecture • History
+My rating: ⭐ 8.5/10</mutableString>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78039215689999997" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="3. Kirti Mandir" id="p2a-bA-fiW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gB5-3q-oz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918" y="3096"/>
+        </scene>
+        <!--2. Sayaji Baug Zoo-->
+        <scene sceneID="JxN-0z-LLw">
+            <objects>
+                <viewController id="nAw-70-svs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z72-mi-dAn"/>
+                        <viewControllerLayoutGuide type="bottom" id="5iV-KW-DB4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4HH-CL-e02">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vadodara2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="3oQ-gy-Du8">
+                                <rect key="frame" x="7" y="72" width="360" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KYk-7c-sB9">
+                                <rect key="frame" x="7" y="286" width="360" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">Also known as Kamati Baug, this is a huge 113-acre public garden. It includes the zoo, Baroda Museum &amp; Picture Gallery, planetarium, and other attractions, making it especially good for families.
+
+Best for: 👨‍👩‍👧‍👦 Families • Nature • Museums • Relaxing
+My rating: ⭐ 9/10</mutableString>
+                                <color key="textColor" red="0.00086230863210000005" green="0.64038705579999999" blue="0.14378393580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78039215689999997" green="1" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2. Sayaji Baug Zoo" id="tqJ-6s-PLV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zOn-iv-sk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918" y="2400"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="adalaj.jpeg" width="723" height="276"/>
+        <image name="images (3).jpeg" width="645" height="310"/>
+        <image name="kakriya.jpeg" width="738" height="270"/>
+        <image name="kutch1.jpeg" width="738" height="327"/>
+        <image name="kutch2.jpeg" width="554" height="554"/>
+        <image name="kutch3.jpeg" width="547" height="365"/>
+        <image name="kutch4.jpeg" width="301" height="204"/>
+        <image name="riverfront.jpeg" width="684" height="292"/>
+        <image name="surat1.jpeg" width="1440" height="960"/>
+        <image name="surat2.jpeg" width="1440" height="960"/>
+        <image name="surat3.jpeg" width="1440" height="960"/>
+        <image name="surat4.jpeg" width="1440" height="960"/>
+        <image name="vadodara1.jpeg" width="629" height="317"/>
+        <image name="vadodara2.jpeg" width="547" height="365"/>
+        <image name="vadodara3.jpeg" width="515" height="388"/>
+        <image name="vadodara4.jpeg" width="499" height="300"/>
+    </resources>
+</document>
